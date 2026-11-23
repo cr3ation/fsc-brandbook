@@ -1,0 +1,24 @@
+/* Freeport Soul Collective – färger (Brandbook 1.0, november 2026) */
+:root {
+  /* Primära */
+  --fsc-midnatt:   #09090B; /* bakgrund                        hsl(240 10% 4%)  */
+  --fsc-soulguld:  #FFD014; /* accent: knappar, linjer, datum   hsl(48 100% 54%) */
+  --fsc-champagne: #EBE8E0; /* text och logotyp på mörk botten  hsl(45 20% 90%)  */
+
+  /* Mörk skala */
+  --fsc-klubb:     #0E0E11; /* kort, paneler, dokumenthuvud */
+  --fsc-rok:       #1C1C22; /* sekundära ytor, fält */
+  --fsc-kant:      #22222A; /* linjer och avdelare */
+  --fsc-sand:      #A39E8F; /* dämpad text, etiketter */
+  --fsc-massing:   #E0B400; /* guldets kant och hover */
+
+  /* Ljus skala (dokument) */
+  --fsc-papper:    #FFFFFF;
+  --fsc-black:     #141416; /* "Bläck": text på ljus botten */
+  --fsc-linne:     #F4F2EC;
+  --fsc-linje:     #E4E1D8;
+
+  /* Typsnitt */
+  --fsc-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --fsc-sans:  'DM Sans', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+}

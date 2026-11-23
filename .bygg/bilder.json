@@ -1,0 +1,338 @@
+{
+ "om": "Bildytor i brandbooken. fil = källbild (sökväg från projektroten); fotona i bilder/live-original är mästerfiler. mm = ytans storlek i boken, cx/cy = utsnittets mitt (0–1), scale = andel av största möjliga utsnitt. exp/con = exponering (steg) och kontrast före guldtonen. kanttoning = kant som tonas mot Midnatt under en CSS-toning.",
+ "motiv": {
+  "omslag-sax": {
+   "fil": "bilder/live-original/live-saxofon-underifran-original.jpg",
+   "exp": -0.1,
+   "con": 0.12,
+   "not": "Tenorsax underifrån, tätt på klaffar och händer, 5 okt 2024",
+   "paketnamn": "saxofon-underifran",
+   "kamerafil": "IMG_1111.jpg"
+  },
+  "varumarket-kimono": {
+   "fil": "bilder/live-original/live-sangerska-kimono-original.jpg",
+   "exp": -0.25,
+   "con": 0.12,
+   "not": "Sångerska i kimono vid mikrofonstativet, 21 mars 2026",
+   "paketnamn": "sangerska-kimono",
+   "kamerafil": "_V3A6596.jpg"
+  },
+  "massing": {
+   "fil": "bilder/live-original/live-saxofoner-mikrofon-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Saxofoner och mikrofon, tätt beskuret",
+   "paketnamn": "saxofoner-mikrofon",
+   "kamerafil": "_V3A1570.jpg"
+  },
+  "mood-sang-4": {
+   "fil": "bilder/live-original/live-sangerska-ljus-klanning-original.jpg",
+   "exp": -0.25,
+   "con": 0.12,
+   "not": "Sångerska ler, 21 mars 2026",
+   "paketnamn": "sangerska-ljus-klanning",
+   "kamerafil": "_V3A6060.jpg"
+  },
+  "lampa": {
+   "fil": "bilder/live-original/live-klaviatur-kristallampa-original.jpg",
+   "exp": -0.1,
+   "con": 0.1,
+   "not": "Klaviatur under kristallampan, 5 okt 2024",
+   "paketnamn": "klaviatur-kristallampa",
+   "kamerafil": "IMG_1275-Enhanced-NR.jpg"
+  },
+  "massing-2": {
+   "fil": "bilder/live-original/live-saxofonsektion-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Saxofonsektionen, detalj",
+   "paketnamn": "saxofonsektion",
+   "kamerafil": "_V3A1390.jpg"
+  },
+  "trummis": {
+   "fil": "bilder/live-original/live-trummis-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Trummis, 6 nov 2026",
+   "paketnamn": "trummis",
+   "kamerafil": "_V3A0269.jpg"
+  },
+  "trumpet": {
+   "fil": "bilder/live-original/live-trumpet-motljus-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Trumpet i motljus",
+   "paketnamn": "trumpet-motljus",
+   "kamerafil": "_V3A1443.jpg"
+  },
+  "fore-klaviatur": {
+   "fil": "bilder/live-original/live-klaviatur-hander-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Händer på klaviaturen, saxofoner i oskärpan",
+   "paketnamn": "klaviatur-hander",
+   "kamerafil": "_V3A0518.jpg"
+  },
+  "fore-gitarr-bryggarhuset": {
+   "fil": "bilder/live-original/live-gitarrist-bryggarhuset-original.jpg",
+   "exp": -0.35,
+   "con": 0.12,
+   "not": "Tittar bakåt över axeln, gitarren lyft. Gardinen 1 steg mörkare (mörkningen är redan gjord i live-original; kamerafilen ligger i .bygg/reserv/kamerafiler)",
+   "paketnamn": "gitarrist-bryggarhuset",
+   "kamerafil": "Melker på gitarr.JPEG"
+  },
+  "startsida": {
+   "fil": ".bygg/startsida-2x.png",
+   "ingen_guldton": true,
+   "not": "Skärmbild av freeportsoul.se i dubbel upplösning med AI-stämningsbilden som bakgrund (.bygg/skript/startsida.py)"
+  },
+  "ig-skratt": {
+   "fil": "bilder/live-original/live-sangerska-skrattar-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Sångerska skrattar framför banderollen, 6 nov 2026",
+   "paketnamn": "sangerska-skrattar",
+   "kamerafil": "_V3A0994.jpg"
+  },
+  "bari-detalj": {
+   "fil": "bilder/live-original/live-barytonsax-original.jpg",
+   "exp": -0.35,
+   "con": 0.15,
+   "not": "Barytonsax, detalj",
+   "paketnamn": "barytonsax",
+   "kamerafil": "_V3A1109.jpg"
+  },
+  "affisch-profil": {
+   "fil": "bilder/live-original/live-sangerska-profil-original.jpg",
+   "exp": -0.4,
+   "con": 0.15,
+   "not": "Sångerska i profil, ler mot mikrofonen, 6 nov 2026",
+   "paketnamn": "sangerska-profil",
+   "kamerafil": "_V3A0427.jpg"
+  }
+ },
+ "ytor": [
+  {
+   "id": "omslag",
+   "sida": 1,
+   "motiv": "omslag-sax",
+   "mm": [
+    184.1,
+    210.0
+   ],
+   "cx": 0.65,
+   "cy": 0.7,
+   "scale": 0.6,
+   "kanttoning": [
+    "left",
+    0.03
+   ]
+  },
+  {
+   "id": "varumarket",
+   "sida": 3,
+   "motiv": "varumarket-kimono",
+   "mm": [
+    136.6,
+    210.0
+   ],
+   "cx": 0.45,
+   "cy": 0.5,
+   "scale": 1.0,
+   "kanttoning": [
+    "right",
+    0.03
+   ]
+  },
+  {
+   "id": "logo-foto",
+   "sida": 6,
+   "motiv": "massing",
+   "mm": [
+    63.9,
+    92.0
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "mood-hog",
+   "sida": 15,
+   "motiv": "mood-sang-4",
+   "mm": [
+    66.7,
+    177.0
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "mood-2",
+   "sida": 15,
+   "motiv": "lampa",
+   "mm": [
+    47.7,
+    87.2
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "mood-3",
+   "sida": 15,
+   "motiv": "massing-2",
+   "mm": [
+    47.7,
+    87.2
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "mood-4",
+   "sida": 15,
+   "motiv": "trummis",
+   "mm": [
+    47.7,
+    87.2
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "mood-5",
+   "sida": 15,
+   "motiv": "trumpet",
+   "mm": [
+    47.7,
+    87.2
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "fore-1-original",
+   "sida": 16,
+   "motiv": "fore-klaviatur",
+   "mm": [
+    71.9,
+    40.4
+   ],
+   "cx": 0.5,
+   "cy": 0.47,
+   "scale": 1.0,
+   "original": true
+  },
+  {
+   "id": "fore-1-guldton",
+   "sida": 16,
+   "motiv": "fore-klaviatur",
+   "mm": [
+    71.9,
+    40.4
+   ],
+   "cx": 0.5,
+   "cy": 0.47,
+   "scale": 1.0
+  },
+  {
+   "id": "fore-2-original",
+   "sida": 16,
+   "motiv": "fore-gitarr-bryggarhuset",
+   "mm": [
+    71.9,
+    40.4
+   ],
+   "cx": 0.5,
+   "cy": 0.34,
+   "scale": 1.0,
+   "original": true
+  },
+  {
+   "id": "fore-2-guldton",
+   "sida": 16,
+   "motiv": "fore-gitarr-bryggarhuset",
+   "mm": [
+    71.9,
+    40.4
+   ],
+   "cx": 0.5,
+   "cy": 0.34,
+   "scale": 1.0
+  },
+  {
+   "id": "webb-hero",
+   "sida": 18,
+   "motiv": "startsida",
+   "mm": [
+    147.9,
+    83.2
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0,
+   "original": true
+  },
+  {
+   "id": "ig-post",
+   "sida": 18,
+   "motiv": "ig-skratt",
+   "mm": [
+    61.5,
+    61.5
+   ],
+   "cx": 0.55,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "ig-story",
+   "sida": 18,
+   "motiv": "bari-detalj",
+   "mm": [
+    39.5,
+    70.5
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "scale": 1.0
+  },
+  {
+   "id": "affisch",
+   "sida": 19,
+   "motiv": "affisch-profil",
+   "mm": [
+    59.7,
+    67.7
+   ],
+   "cx": 0.45,
+   "cy": 0.297,
+   "scale": 0.78,
+   "kanttoning": [
+    "top",
+    0.03
+   ]
+  }
+ ],
+ "beslut": {
+  "omslag": "Z4 (IMG_1111, tätt på klaffar och händer), med fotoytan 62 % och svart längre in. Beslutat 2026-11-23 (tillbaka från bild 2)",
+  "varumarket": "Bild 5 (_V3A6596, sångerska i kimono), beslutat 2026-11-23",
+  "mood-4": "Trummis (alt 5, _V3A0269). Sida 16 version 1 bekräftad 2026-11-23",
+  "mood-hog": "Alt 4 (_V3A6060, sångerska i ljus klänning), beslutat 2026-11-23",
+  "fore": "Överst: N1 (_V3A0518, händer på klaviaturen). Underst: G2 (Melker på gitarr, Bryggarhuset) med gardinen 1 steg mörkare (M10). Beslutat 2026-11-23",
+  "spegelvandning": "Ingen spegelvändning, bilderna används som de är fotograferade",
+  "ig-post": "Alt 1 (_V3A0994, sångerska skrattar framför banderollen), beslutat 2026-11-23",
+  "varumarket-layout": "Bilden till vänster och texten till höger på s.3, beslutat 2026-11-23",
+  "omslag-layout": "Variant B: fotoytan 62 % av sidbredden och toningen släpper senare, beslutat 2026-11-23",
+  "affisch": "Bild 2 (_V3A0427, sångerska i profil), valt 2026-11-23. Kvar som alternativ: 7 (_V3A1433) och 13 (_V3A1322)",
+  "scrim-demo": "Behåll AI-bilden (stamning-scen.jpg, statisk fil i webbversion/img)",
+  "webb-hero": "Startsidan med skrivstilslogotypen och AI-stämningsbilden, 2026-11-23",
+  "namn": "Den alternativa logotypen (typografisk namnsättning) borttagen, boken 20 sidor, 2026-11-23"
+ }
+}

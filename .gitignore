@@ -1,0 +1,6 @@
+# Mellanresultat, zip och reservbilder: skapas eller används lokalt, ingår inte i git
+.bygg/tmp/
+.bygg/ut/
+.bygg/reserv/
+__pycache__/
+.DS_Store

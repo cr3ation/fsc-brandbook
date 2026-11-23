@@ -1,0 +1,27 @@
+FREEPORT SOUL COLLECTIVE – BRANDBOOK 1.0 (november 2026)
+
+brandbook.pdf          Boken som PDF (A4 liggande, 20 sidor), för mejl och utskrift.
+webbversion/           Samma bok som webbsida. Öppna index.html i en webbläsare,
+                       eller lägg mappen på webbplatsen, t.ex. freeportsoul.se/brand.
+
+logo/svg/              Logotypen i vektor. Använd SVG för tryck, merch och webb.
+logo/png/              Logotypen som PNG med transparent bakgrund, 600/2000/4000 px.
+  cream  = Champagne #EBE8E0 – primär, på mörk botten
+  white  = vit – på foto med mörk scrim
+  gold   = Soulguld #FFD014 – accent, merch och affischer
+  ink    = Bläck #141416 – sekundär, bara på ljus botten
+  black  = ren svart – för enfärgstryck, stämplar och gravyr
+
+farger/                CSS-variabler, JSON och en färgtabell (CSV, öppnas i Excel/Numbers).
+typsnitt/              DM Sans och Playfair Display (TTF) med licenser.
+                       Båda är fria under SIL Open Font License 1.1.
+bilder/                Stämningsbilder från webbplatsen och spelningsfoton i original och
+                       guldton. Spelningsfotona är i full upplösning (sRGB) och räcker
+                       för tryck. De är tagna vid spelningar 5 okt 2024, 21 mars 2026
+                       och 6 nov 2026 samt på Bryggarhuset. Det är samma foton som
+                       används i boken.
+guldton/               Färgprofil (.cube) för foto och film, med instruktion.
+
+Logotypen i logo/svg är vektoriserad från webbplatsens högupplösta PNG
+(4451×2906 px). Finns en originalfil från den som ritade logotypen
+(AI, EPS eller PDF) ska den användas i första hand.

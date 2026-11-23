@@ -1,0 +1,150 @@
+{
+  "namn": "Freeport Soul Collective",
+  "version": "1.0",
+  "farger": [
+    {
+      "namn": "Midnatt",
+      "grupp": "primär",
+      "hex": "#09090B",
+      "rgb": [
+        9,
+        9,
+        11
+      ],
+      "cmyk": "60 40 40 100 (rik svart)",
+      "anvandning": "Bakgrund"
+    },
+    {
+      "namn": "Soulguld",
+      "grupp": "primär",
+      "hex": "#FFD014",
+      "rgb": [
+        255,
+        208,
+        20
+      ],
+      "cmyk": "0 18 92 0",
+      "anvandning": "Accent: knappar, linjer, datum. Pantone 116 C (närmast, verifiera)"
+    },
+    {
+      "namn": "Champagne",
+      "grupp": "primär",
+      "hex": "#EBE8E0",
+      "rgb": [
+        235,
+        232,
+        224
+      ],
+      "cmyk": "0 1 5 8",
+      "anvandning": "Text och logotyp på mörk botten"
+    },
+    {
+      "namn": "Klubb",
+      "grupp": "mörk skala",
+      "hex": "#0E0E11",
+      "rgb": [
+        14,
+        14,
+        17
+      ],
+      "cmyk": "",
+      "anvandning": "Kort, paneler, dokumenthuvud"
+    },
+    {
+      "namn": "Rök",
+      "grupp": "mörk skala",
+      "hex": "#1C1C22",
+      "rgb": [
+        28,
+        28,
+        34
+      ],
+      "cmyk": "",
+      "anvandning": "Sekundära ytor"
+    },
+    {
+      "namn": "Kant",
+      "grupp": "mörk skala",
+      "hex": "#22222A",
+      "rgb": [
+        34,
+        34,
+        42
+      ],
+      "cmyk": "",
+      "anvandning": "Linjer och avdelare"
+    },
+    {
+      "namn": "Sand",
+      "grupp": "mörk skala",
+      "hex": "#A39E8F",
+      "rgb": [
+        163,
+        158,
+        143
+      ],
+      "cmyk": "0 3 12 36",
+      "anvandning": "Dämpad text, etiketter"
+    },
+    {
+      "namn": "Mässing",
+      "grupp": "mörk skala",
+      "hex": "#E0B400",
+      "rgb": [
+        224,
+        180,
+        0
+      ],
+      "cmyk": "0 20 100 12",
+      "anvandning": "Guldets kant och hover"
+    },
+    {
+      "namn": "Papper",
+      "grupp": "ljus skala",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "cmyk": "0 0 0 0",
+      "anvandning": "Dokumentets brödyta"
+    },
+    {
+      "namn": "Bläck",
+      "grupp": "ljus skala",
+      "hex": "#141416",
+      "rgb": [
+        20,
+        20,
+        22
+      ],
+      "cmyk": "0 0 0 100 (text)",
+      "anvandning": "Text på ljus botten"
+    },
+    {
+      "namn": "Linne",
+      "grupp": "ljus skala",
+      "hex": "#F4F2EC",
+      "rgb": [
+        244,
+        242,
+        236
+      ],
+      "cmyk": "0 1 3 4",
+      "anvandning": "Randade rader, ljusa ytor"
+    },
+    {
+      "namn": "Linje",
+      "grupp": "ljus skala",
+      "hex": "#E4E1D8",
+      "rgb": [
+        228,
+        225,
+        216
+      ],
+      "cmyk": "0 1 5 11",
+      "anvandning": "Tunna linjer på papper"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+GULDTON – färgprofil för foto och film
+Freeport Soul Collective · Brandbook 1.0
+
+fsc-guldton.cube är en 3D-LUT (33×33×33) som gör om livebilder med rött, lila
+och blått scenljus till bandets guldton: djupa svarta, mörkbruna skuggor och
+guldiga högdagrar. Se brandbookens sidor 15–16.
+
+Så använder du den
+- Photoshop: Lager › Nytt justeringslager › Färgsökning (Color Lookup) › 3DLUT-fil › välj fsc-guldton.cube.
+- Premiere Pro: Lumetri Color › Grundläggande korrigering › Indata-LUT eller Kreativ › Look.
+- Final Cut Pro: Effekter › Färg › Anpassad LUT.
+- DaVinci Resolve: lägg filen i LUT-mappen och använd den på en nod.
+- Lightroom Classic stöder inte .cube direkt. Använd Photoshop, eller följ receptet för hand (s. 16).
+
+Tips
+- Exponera och kontrastjustera bilden först, lägg LUT:en sist.
+- Bilden blir för ljus eller platt? Sänk opaciteten på justeringslagret till 70–85 %.
