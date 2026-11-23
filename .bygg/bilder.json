@@ -1,14 +1,6 @@
 {
  "om": "Bildytor i brandbooken. fil = källbild (sökväg från projektroten); fotona i bilder/live-original är mästerfiler. mm = ytans storlek i boken, cx/cy = utsnittets mitt (0–1), scale = andel av största möjliga utsnitt. exp/con = exponering (steg) och kontrast före guldtonen. kanttoning = kant som tonas mot Midnatt under en CSS-toning.",
  "motiv": {
-  "omslag-sax": {
-   "fil": "bilder/live-original/live-saxofon-underifran-original.jpg",
-   "exp": -0.1,
-   "con": 0.12,
-   "not": "Tenorsax underifrån, tätt på klaffar och händer, 5 okt 2024",
-   "paketnamn": "saxofon-underifran",
-   "kamerafil": "IMG_1111.jpg"
-  },
   "varumarket-kimono": {
    "fil": "bilder/live-original/live-sangerska-kimono-original.jpg",
    "exp": -0.25,
@@ -109,20 +101,28 @@
    "not": "Sångerska i profil, ler mot mikrofonen, 6 nov 2026",
    "paketnamn": "sangerska-profil",
    "kamerafil": "_V3A0427.jpg"
+  },
+  "omslag-sax-hel": {
+   "fil": "bilder/live-original/live-saxofon-underifran-original.jpg",
+   "exp": -0.1,
+   "con": 0.12,
+   "paketnamn": "saxofon-underifran",
+   "not": "Tenorsax underifrån, hela saxofonisten (bild 2), 5 okt 2024",
+   "kamerafil": "IMG_1111.jpg"
   }
  },
  "ytor": [
   {
    "id": "omslag",
    "sida": 1,
-   "motiv": "omslag-sax",
+   "motiv": "omslag-sax-hel",
    "mm": [
     184.1,
     210.0
    ],
-   "cx": 0.65,
-   "cy": 0.7,
-   "scale": 0.6,
+   "cx": 0.491,
+   "cy": 0.5,
+   "scale": 0.9116,
    "kanttoning": [
     "left",
     0.03
@@ -321,7 +321,7 @@
   }
  ],
  "beslut": {
-  "omslag": "Z4 (IMG_1111, tätt på klaffar och händer), med fotoytan 62 % och svart längre in. Beslutat 2026-11-23 (tillbaka från bild 2)",
+  "omslag": "Bild 2 (IMG_1111, hela saxofonisten), fotoyta 62 %, svart längre in. Beslutat 2026-11-23 (ersätter Z4)",
   "varumarket": "Bild 5 (_V3A6596, sångerska i kimono), beslutat 2026-11-23",
   "mood-4": "Trummis (alt 5, _V3A0269). Sida 16 version 1 bekräftad 2026-11-23",
   "mood-hog": "Alt 4 (_V3A6060, sångerska i ljus klänning), beslutat 2026-11-23",

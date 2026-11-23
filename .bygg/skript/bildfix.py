@@ -6,6 +6,11 @@ from lut import load_cube, apply_lut, pre_adjust
 
 Image.MAX_IMAGE_PIXELS = None
 SRGB = ImageCms.createProfile('sRGB')
+# sRGB-profilen som bäddas in i bilderna. lcms skriver in skapelsetiden i profilhuvudet (byte 24–35);
+# den sätts till ett fast datum så att samma bild alltid ger samma fil (inga onödiga ändringar i git).
+_icc = bytearray(ImageCms.ImageCmsProfile(SRGB).tobytes())
+_icc[24:36] = bytes([0x07, 0xea, 0x00, 0x0b, 0x00, 0x17, 0, 0, 0, 0, 0, 0])   # 2026-11-23 00:00:00
+SRGB_ICC = bytes(_icc)
 MIDNATT = np.array([9, 9, 11], np.float32)
 
 

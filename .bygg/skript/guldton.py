@@ -2,11 +2,10 @@
 Körs från projektroten. argv: bilder.json cube"""
 import sys, os, json
 sys.path.insert(0, os.path.dirname(__file__))
-from PIL import ImageCms
-from bildfix import ladda, guldtona, load_cube, SRGB
+from bildfix import ladda, guldtona, load_cube, SRGB_ICC
 
 cfg = json.load(open(sys.argv[1], encoding='utf-8')); lut = load_cube(sys.argv[2]); UT = 'bilder/live-guldton'
-icc = ImageCms.ImageCmsProfile(SRGB).tobytes(); os.makedirs(UT, exist_ok=True)
+icc = SRGB_ICC; os.makedirs(UT, exist_ok=True)
 for f in os.listdir(UT): os.remove(os.path.join(UT, f))
 for m in cfg['motiv'].values():
     if 'paketnamn' not in m: continue
